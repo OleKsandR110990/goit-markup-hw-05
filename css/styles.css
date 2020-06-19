@@ -28,17 +28,21 @@ body {
   
   font-family: Roboto, sans-serif;
 }
+
 a {
   text-decoration: none;
 }
+
 .fill {
   background-color: var(--fon-color);
 }
+
 .list {
   margin-top: 0;
   margin-bottom: 0;
   list-style: none;
 }
+
 ul {
   list-style: none;
   padding-inline-start: 0;
@@ -147,6 +151,7 @@ letter-spacing: 0.02em;
   color: var(--accent-color);
   fill: var(--accent-color);
 
+
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -180,6 +185,7 @@ letter-spacing: 0.02em;
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
+  position: relative;
 }
 
 /* тоже правильно v */
