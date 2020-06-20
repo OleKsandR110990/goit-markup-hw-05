@@ -128,13 +128,32 @@ letter-spacing: 0.02em;
 
 }
 
-.current:hover {
+.stud:hover {
   color: var(--accent-color);
   position: relative;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.current::after {
+.stud::after {
+  content: "";
+
+  width: 100%;
+  height: 4px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+
+.port:hover {
+  color: var(--accent-color);
+  position: relative;
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.port::after {
   content: "";
 
   width: 100%;
@@ -388,6 +407,9 @@ border-radius: 4px;
 .feature-list .name {
   background-color: var(--pimary-white-color);
   text-align: center;
+
+  border-radius: 0px 0px 4px 4px;
+
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 
